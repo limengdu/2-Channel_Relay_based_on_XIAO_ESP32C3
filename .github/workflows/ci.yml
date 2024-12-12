@@ -20,15 +20,11 @@ jobs:
       matrix:
         #### Modify below here to match your project ####
         file:
-          - project-template-esp32
-          - project-template-esp32-c3
-          - project-template-esp32-s3
+          - example/two_channel_relay_based_on_xiao_esp32c3
         #### Modify above here to match your project ####
-
         esphome-version:
           - stable
-          - beta
-          - dev
+
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4.1.7
