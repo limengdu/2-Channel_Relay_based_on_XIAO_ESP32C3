@@ -25,6 +25,7 @@ api:
 
 # Enable over-the-air updates
 ota:
+    - platform: esphome
 
 wifi:
   # Enable fallback hotspot (captive portal) in case Wi-Fi connection fails
